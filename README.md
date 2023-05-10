@@ -1,5 +1,5 @@
 # HFO detector
-You can find details of the method for detecting high frequency oscillations (HFOs) in Mirzakhalili _et. al. IEEE NER 2023_.
+You can find details of the method for detecting high frequency oscillations (HFOs) in Mirzakhalili _et. al. IEEE NER_ (2023).
 
 The essential codes are included in the **function** folder. 
 If you want to run the benchmark scripts, then you need to download the **Data** folder. 
