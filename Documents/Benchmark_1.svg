@@ -3,22 +3,23 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 840 630" style="enable-background:new 0 0 840 630;" xml:space="preserve">
 <style type="text/css">
-	.st0{clip-path:url(#SVGID_00000061464448525512838760000018371251242611597198_);fill:#FFFFFF;}
-	.st1{fill:none;stroke:#FFFFFF;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st2{fill:#0072BD;}
-	.st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
-	.st4{fill:#D95319;}
-	.st5{fill:#EDB120;}
-	.st6{fill:#7E2F8E;}
-	.st7{fill:#77AC30;}
-	.st8{fill:#4DBEEE;}
-	.st9{fill:none;stroke:#FCFAFA;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st10{fill:none;stroke:#FFFFFF;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st11{fill:#FFFFFF;}
-	.st12{font-family:'MyriadPro-Regular';}
-	.st13{font-size:20px;}
-	.st14{font-size:22px;}
-	.st15{font-size:18px;}
+	.st0{clip-path:url(#SVGID_00000050647879666093778770000005595035642842653092_);fill:#FFFFFF;}
+	.st1{fill:#0D1117;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:#0072BD;}
+	.st4{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st5{fill:#D95319;}
+	.st6{fill:#EDB120;}
+	.st7{fill:#7E2F8E;}
+	.st8{fill:#77AC30;}
+	.st9{fill:#4DBEEE;}
+	.st10{fill:none;stroke:#FCFAFA;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#FFFFFF;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st12{fill:#FFFFFF;}
+	.st13{font-family:'MyriadPro-Regular';}
+	.st14{font-size:20px;}
+	.st15{font-size:22px;}
+	.st16{font-size:18px;}
 </style>
 <g>
 	<g>
@@ -26,197 +27,198 @@
 			<defs>
 				<rect id="SVGID_1_" width="840" height="630"/>
 			</defs>
-			<clipPath id="SVGID_00000030462889279805935220000014478728657170463148_">
+			<clipPath id="SVGID_00000115496677139641639880000000300098259565025945_">
 				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 			</clipPath>
 			
-				<rect style="clip-path:url(#SVGID_00000030462889279805935220000014478728657170463148_);fill:#FFFFFF;" width="840" height="630"/>
+				<rect style="clip-path:url(#SVGID_00000115496677139641639880000000300098259565025945_);fill:#FFFFFF;" width="840" height="630"/>
 		</g>
 	</g>
 	<g>
-		<rect width="840" height="630"/>
-		<path d="M109,566h651V101H109V566z"/>
+		<g>
+			<rect class="st1" width="840" height="630"/>
+		</g>
 	</g>
 	<g>
-		<line class="st1" x1="109" y1="566" x2="760" y2="566"/>
+		<line class="st2" x1="109" y1="566" x2="760" y2="566"/>
 	</g>
 	<g>
-		<path class="st2" d="M143.8,566V103.3h-17.4V566H143.8z M307.1,566V101h-17.4v465H307.1z M470.4,566V101H453v465H470.4z
+		<path class="st3" d="M143.8,566V103.3h-17.4V566H143.8z M307.1,566V101h-17.4v465H307.1z M470.4,566V101H453v465H470.4z
 			 M633.7,566V101h-17.4v465H633.7z"/>
 	</g>
 	<g>
-		<path class="st3" d="M126.4,566V103.3h17.4V566H126.4z"/>
-		<path class="st3" d="M289.7,566V101h17.4v465H289.7z"/>
-		<path class="st3" d="M453,566V101h17.4v465H453z"/>
-		<path class="st3" d="M616.3,566V101h17.4v465H616.3z"/>
+		<path class="st4" d="M126.4,566V103.3h17.4V566H126.4z"/>
+		<path class="st4" d="M289.7,566V101h17.4v465H289.7z"/>
+		<path class="st4" d="M453,566V101h17.4v465H453z"/>
+		<path class="st4" d="M616.3,566V101h17.4v465H616.3z"/>
 	</g>
 	<g>
-		<path class="st4" d="M165.6,566v-358h-17.4v358H165.6z M328.9,566V116.8h-17.4V566H328.9z M492.2,566V105.7h-17.4V566H492.2z
+		<path class="st5" d="M165.6,566v-358h-17.4v358H165.6z M328.9,566V116.8h-17.4V566H328.9z M492.2,566V105.7h-17.4V566H492.2z
 			 M655.5,566V101.9h-17.4V566H655.5z"/>
 	</g>
 	<g>
-		<path class="st3" d="M148.2,566v-358h17.4v358H148.2z"/>
-		<path class="st3" d="M311.5,566V116.8h17.4V566H311.5z"/>
-		<path class="st3" d="M474.8,566V105.7h17.4V566H474.8z"/>
-		<path class="st3" d="M638.1,566V101.9h17.4V566H638.1z"/>
+		<path class="st4" d="M148.2,566v-358h17.4v358H148.2z"/>
+		<path class="st4" d="M311.5,566V116.8h17.4V566H311.5z"/>
+		<path class="st4" d="M474.8,566V105.7h17.4V566H474.8z"/>
+		<path class="st4" d="M638.1,566V101.9h17.4V566H638.1z"/>
 	</g>
 	<g>
-		<path class="st5" d="M187.4,566v-2.3H170v2.3H187.4z M350.7,566v-65.6h-17.4V566H350.7z M514,566V256.3h-17.4V566H514z M677.3,566
+		<path class="st6" d="M187.4,566v-2.3H170v2.3H187.4z M350.7,566v-65.6h-17.4V566H350.7z M514,566V256.3h-17.4V566H514z M677.3,566
 			V162.4h-17.4V566H677.3z"/>
 	</g>
 	<g>
-		<path class="st3" d="M170,566v-2.3h17.4v2.3H170z"/>
-		<path class="st3" d="M333.3,566v-65.6h17.4V566H333.3z"/>
-		<path class="st3" d="M496.6,566V256.3H514V566H496.6z"/>
-		<path class="st3" d="M659.8,566V162.4h17.4V566H659.8z"/>
+		<path class="st4" d="M170,566v-2.3h17.4v2.3H170z"/>
+		<path class="st4" d="M333.3,566v-65.6h17.4V566H333.3z"/>
+		<path class="st4" d="M496.6,566V256.3H514V566H496.6z"/>
+		<path class="st4" d="M659.8,566V162.4h17.4V566H659.8z"/>
 	</g>
 	<g>
-		<path class="st6" d="M209.2,566v-1.9h-17.4v1.9H209.2z M372.4,566v-7H355v7H372.4z M535.7,566v-45.1h-17.4V566H535.7z M699,566
+		<path class="st7" d="M209.2,566v-1.9h-17.4v1.9H209.2z M372.4,566v-7H355v7H372.4z M535.7,566v-45.1h-17.4V566H535.7z M699,566
 			V464.6h-17.4V566H699z"/>
 	</g>
 	<g>
-		<path class="st3" d="M191.7,566v-1.9h17.4v1.9H191.7z"/>
-		<path class="st3" d="M355,566v-7h17.4v7H355z"/>
-		<path class="st3" d="M518.3,566v-45.1h17.4V566H518.3z"/>
-		<path class="st3" d="M681.6,566V464.6H699V566H681.6z"/>
+		<path class="st4" d="M191.7,566v-1.9h17.4v1.9H191.7z"/>
+		<path class="st4" d="M355,566v-7h17.4v7H355z"/>
+		<path class="st4" d="M518.3,566v-45.1h17.4V566H518.3z"/>
+		<path class="st4" d="M681.6,566V464.6H699V566H681.6z"/>
 	</g>
 	<g>
-		<path class="st7" d="M230.9,566V283.7h-17.4V566H230.9z M394.2,566V200h-17.4v366H394.2z M557.5,566V189.4h-17.4V566H557.5z
+		<path class="st8" d="M230.9,566V283.7h-17.4V566H230.9z M394.2,566V200h-17.4v366H394.2z M557.5,566V189.4h-17.4V566H557.5z
 			 M720.8,566V186.6h-17.4V566H720.8z"/>
 	</g>
 	<g>
-		<path class="st3" d="M213.5,566V283.7h17.4V566H213.5z"/>
-		<path class="st3" d="M376.8,566V200h17.4v366H376.8z"/>
-		<path class="st3" d="M540.1,566V189.4h17.4V566H540.1z"/>
-		<path class="st3" d="M703.4,566V186.6h17.4V566H703.4z"/>
+		<path class="st4" d="M213.5,566V283.7h17.4V566H213.5z"/>
+		<path class="st4" d="M376.8,566V200h17.4v366H376.8z"/>
+		<path class="st4" d="M540.1,566V189.4h17.4V566H540.1z"/>
+		<path class="st4" d="M703.4,566V186.6h17.4V566H703.4z"/>
 	</g>
 	<g>
-		<path class="st8" d="M252.7,566V179.1h-17.4V566H252.7z M416,566V123.3h-17.4V566H416z M579.3,566V125.6h-17.4V566H579.3z
+		<path class="st9" d="M252.7,566V179.1h-17.4V566H252.7z M416,566V123.3h-17.4V566H416z M579.3,566V125.6h-17.4V566H579.3z
 			 M742.6,566V125.6h-17.4V566H742.6z"/>
 	</g>
 	<g>
-		<path class="st3" d="M235.3,566V179.1h17.4V566H235.3z"/>
-		<path class="st3" d="M398.6,566V123.3H416V566H398.6z"/>
-		<path class="st3" d="M561.9,566V125.6h17.4V566H561.9z"/>
-		<path class="st3" d="M725.2,566V125.6h17.4V566H725.2z"/>
+		<path class="st4" d="M235.3,566V179.1h17.4V566H235.3z"/>
+		<path class="st4" d="M398.6,566V123.3H416V566H398.6z"/>
+		<path class="st4" d="M561.9,566V125.6h17.4V566H561.9z"/>
+		<path class="st4" d="M725.2,566V125.6h17.4V566H725.2z"/>
 	</g>
 	<g>
-		<line class="st9" x1="109" y1="566" x2="760" y2="566"/>
-		<line class="st10" x1="109" y1="101" x2="760" y2="101"/>
-		<line class="st10" x1="189.6" y1="566" x2="189.6" y2="559.5"/>
-		<line class="st10" x1="352.9" y1="566" x2="352.9" y2="559.5"/>
-		<line class="st10" x1="516.1" y1="566" x2="516.1" y2="559.5"/>
-		<line class="st10" x1="679.4" y1="566" x2="679.4" y2="559.5"/>
-		<line class="st10" x1="189.6" y1="101" x2="189.6" y2="107.5"/>
-		<line class="st10" x1="352.9" y1="101" x2="352.9" y2="107.5"/>
-		<line class="st10" x1="516.1" y1="101" x2="516.1" y2="107.5"/>
-		<line class="st10" x1="679.4" y1="101" x2="679.4" y2="107.5"/>
+		<line class="st10" x1="109" y1="566" x2="760" y2="566"/>
+		<line class="st11" x1="109" y1="101" x2="760" y2="101"/>
+		<line class="st11" x1="189.6" y1="566" x2="189.6" y2="559.5"/>
+		<line class="st11" x1="352.9" y1="566" x2="352.9" y2="559.5"/>
+		<line class="st11" x1="516.1" y1="566" x2="516.1" y2="559.5"/>
+		<line class="st11" x1="679.4" y1="566" x2="679.4" y2="559.5"/>
+		<line class="st11" x1="189.6" y1="101" x2="189.6" y2="107.5"/>
+		<line class="st11" x1="352.9" y1="101" x2="352.9" y2="107.5"/>
+		<line class="st11" x1="516.1" y1="101" x2="516.1" y2="107.5"/>
+		<line class="st11" x1="679.4" y1="101" x2="679.4" y2="107.5"/>
 	</g>
 	<g transform="translate(189.5585,574)">
-		<text transform="matrix(1 0 0 1 -21.5 21)" class="st11 st12 st13">-9dB</text>
+		<text transform="matrix(1 0 0 1 -21.5 21)" class="st12 st13 st14">-9dB</text>
 	</g>
 	<g transform="translate(352.8528,574)">
-		<text transform="matrix(1 0 0 1 -21.5 21)" class="st11 st12 st13">-6dB</text>
+		<text transform="matrix(1 0 0 1 -21.5 21)" class="st12 st13 st14">-6dB</text>
 	</g>
 	<g transform="translate(516.1472,574)">
-		<text transform="matrix(1 0 0 1 -21.5 21)" class="st11 st12 st13">-3dB</text>
+		<text transform="matrix(1 0 0 1 -21.5 21)" class="st12 st13 st14">-3dB</text>
 	</g>
 	<g transform="translate(679.4415,574)">
-		<text transform="matrix(1 0 0 1 -18 21)" class="st11 st12 st13">0dB</text>
+		<text transform="matrix(1 0 0 1 -18 21)" class="st12 st13 st14">0dB</text>
 	</g>
 	<g transform="translate(434.5003,602)">
-		<text transform="matrix(1 0 0 1 -23.5 23)" class="st11 st12 st14">SNR</text>
+		<text transform="matrix(1 0 0 1 -23.5 23)" class="st12 st13 st15">SNR</text>
 	</g>
 	<g>
-		<line class="st10" x1="109" y1="566" x2="109" y2="101"/>
-		<line class="st10" x1="760" y1="566" x2="760" y2="101"/>
-		<line class="st10" x1="109" y1="566" x2="115.5" y2="566"/>
-		<line class="st10" x1="109" y1="473" x2="115.5" y2="473"/>
-		<line class="st10" x1="109" y1="380" x2="115.5" y2="380"/>
-		<line class="st10" x1="109" y1="287" x2="115.5" y2="287"/>
-		<line class="st10" x1="109" y1="194" x2="115.5" y2="194"/>
-		<line class="st10" x1="109" y1="101" x2="115.5" y2="101"/>
-		<line class="st10" x1="760" y1="566" x2="753.5" y2="566"/>
-		<line class="st10" x1="760" y1="473" x2="753.5" y2="473"/>
-		<line class="st10" x1="760" y1="380" x2="753.5" y2="380"/>
-		<line class="st10" x1="760" y1="287" x2="753.5" y2="287"/>
-		<line class="st10" x1="760" y1="194" x2="753.5" y2="194"/>
-		<line class="st10" x1="760" y1="101" x2="753.5" y2="101"/>
+		<line class="st11" x1="109" y1="566" x2="109" y2="101"/>
+		<line class="st11" x1="760" y1="566" x2="760" y2="101"/>
+		<line class="st11" x1="109" y1="566" x2="115.5" y2="566"/>
+		<line class="st11" x1="109" y1="473" x2="115.5" y2="473"/>
+		<line class="st11" x1="109" y1="380" x2="115.5" y2="380"/>
+		<line class="st11" x1="109" y1="287" x2="115.5" y2="287"/>
+		<line class="st11" x1="109" y1="194" x2="115.5" y2="194"/>
+		<line class="st11" x1="109" y1="101" x2="115.5" y2="101"/>
+		<line class="st11" x1="760" y1="566" x2="753.5" y2="566"/>
+		<line class="st11" x1="760" y1="473" x2="753.5" y2="473"/>
+		<line class="st11" x1="760" y1="380" x2="753.5" y2="380"/>
+		<line class="st11" x1="760" y1="287" x2="753.5" y2="287"/>
+		<line class="st11" x1="760" y1="194" x2="753.5" y2="194"/>
+		<line class="st11" x1="760" y1="101" x2="753.5" y2="101"/>
 	</g>
 	<g transform="translate(101,566)">
-		<text transform="matrix(1 0 0 1 -12 8)" class="st11 st12 st13">0</text>
+		<text transform="matrix(1 0 0 1 -12 8)" class="st12 st13 st14">0</text>
 	</g>
 	<g transform="translate(101,473)">
-		<text transform="matrix(1 0 0 1 -28 8)" class="st11 st12 st13">0.2</text>
+		<text transform="matrix(1 0 0 1 -28 8)" class="st12 st13 st14">0.2</text>
 	</g>
 	<g transform="translate(101,380)">
-		<text transform="matrix(1 0 0 1 -28 8)" class="st11 st12 st13">0.4</text>
+		<text transform="matrix(1 0 0 1 -28 8)" class="st12 st13 st14">0.4</text>
 	</g>
 	<g transform="translate(101,287)">
-		<text transform="matrix(1 0 0 1 -28 8)" class="st11 st12 st13">0.6</text>
+		<text transform="matrix(1 0 0 1 -28 8)" class="st12 st13 st14">0.6</text>
 	</g>
 	<g transform="translate(101,194)">
-		<text transform="matrix(1 0 0 1 -28 8)" class="st11 st12 st13">0.8</text>
+		<text transform="matrix(1 0 0 1 -28 8)" class="st12 st13 st14">0.8</text>
 	</g>
 	<g transform="translate(101,101)">
-		<text transform="matrix(1 0 0 1 -12 8)" class="st11 st12 st13">1</text>
+		<text transform="matrix(1 0 0 1 -12 8)" class="st12 st13 st14">1</text>
 	</g>
 	<g transform="translate(67,333.4998) rotate(-90)">
-		<text transform="matrix(1 0 0 1 -53.5002 -5)" class="st11 st12 st14">F-Measure</text>
+		<text transform="matrix(1 0 0 1 -53.5002 -5)" class="st12 st13 st15">F-Measure</text>
 	</g>
 	<g transform="translate(123.5,57.5)">
-		<text transform="matrix(1 0 0 1 0 7.5)" class="st11 st12 st15">Ours</text>
+		<text transform="matrix(1 0 0 1 0 7.5)" class="st12 st13 st16">Ours</text>
 	</g>
 	<g>
-		<path class="st2" d="M119,66.1V48.9H59v17.2H119z"/>
+		<path class="st3" d="M119,66.1V48.9H59v17.2H119z"/>
 	</g>
 	<g>
-		<path class="st3" d="M59,66.1V48.9h60v17.2H59z"/>
+		<path class="st4" d="M59,66.1V48.9h60v17.2H59z"/>
 	</g>
 	<g transform="translate(240,57.5)">
-		<text transform="matrix(1 0 0 1 0 7.5)" class="st11 st12 st15">Donos</text>
+		<text transform="matrix(1 0 0 1 0 7.5)" class="st12 st13 st16">Donos</text>
 	</g>
 	<g>
-		<path class="st4" d="M235.5,66.1V48.9h-60v17.2H235.5z"/>
+		<path class="st5" d="M235.5,66.1V48.9h-60v17.2H235.5z"/>
 	</g>
 	<g>
-		<path class="st3" d="M175.5,66.1V48.9h60v17.2H175.5z"/>
+		<path class="st4" d="M175.5,66.1V48.9h60v17.2H175.5z"/>
 	</g>
 	<g transform="translate(369.5,57.5)">
-		<text transform="matrix(1 0 0 1 0 7.5)" class="st11 st12 st15">Hilbert</text>
+		<text transform="matrix(1 0 0 1 0 7.5)" class="st12 st13 st16">Hilbert</text>
 	</g>
 	<g>
-		<path class="st5" d="M365,66.1V48.9h-60v17.2H365z"/>
+		<path class="st6" d="M365,66.1V48.9h-60v17.2H365z"/>
 	</g>
 	<g>
-		<path class="st3" d="M305,66.1V48.9h60v17.2H305z"/>
+		<path class="st4" d="M305,66.1V48.9h60v17.2H305z"/>
 	</g>
 	<g transform="translate(499,57.5)">
-		<text transform="matrix(1 0 0 1 0 7.5)" class="st11 st12 st15">STE</text>
+		<text transform="matrix(1 0 0 1 0 7.5)" class="st12 st13 st16">STE</text>
 	</g>
 	<g>
-		<path class="st6" d="M494.5,66.1V48.9h-60v17.2H494.5z"/>
+		<path class="st7" d="M494.5,66.1V48.9h-60v17.2H494.5z"/>
 	</g>
 	<g>
-		<path class="st3" d="M434.5,66.1V48.9h60v17.2H434.5z"/>
+		<path class="st4" d="M434.5,66.1V48.9h60v17.2H434.5z"/>
 	</g>
 	<g transform="translate(611.5,57.5)">
-		<text transform="matrix(1 0 0 1 0 7.5)" class="st11 st12 st15">SLL</text>
+		<text transform="matrix(1 0 0 1 0 7.5)" class="st12 st13 st16">SLL</text>
 	</g>
 	<g>
-		<path class="st7" d="M607,66.1V48.9h-60v17.2H607z"/>
+		<path class="st8" d="M607,66.1V48.9h-60v17.2H607z"/>
 	</g>
 	<g>
-		<path class="st3" d="M547,66.1V48.9h60v17.2H547z"/>
+		<path class="st4" d="M547,66.1V48.9h60v17.2H547z"/>
 	</g>
 	<g transform="translate(721,57.5)">
-		<text transform="matrix(1 0 0 1 0 7.5)" class="st11 st12 st15">MNI</text>
+		<text transform="matrix(1 0 0 1 0 7.5)" class="st12 st13 st16">MNI</text>
 	</g>
 	<g>
-		<path class="st8" d="M716.5,66.1V48.9h-60v17.2H716.5z"/>
+		<path class="st9" d="M716.5,66.1V48.9h-60v17.2H716.5z"/>
 	</g>
 	<g>
-		<path class="st3" d="M656.5,66.1V48.9h60v17.2H656.5z"/>
+		<path class="st4" d="M656.5,66.1V48.9h60v17.2H656.5z"/>
 	</g>
 </g>
 </svg>
