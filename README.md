@@ -3,7 +3,6 @@ You can find details of the method for detecting high frequency oscillations (HF
 
 The essential codes are included in the **function** folder. 
 If you want to run the benchmark scripts, you need to download the **Data** folder. 
-Please download all the scripts and folders and put them in the same directory.
 ## Note:
 We had used an open-source library (fcwt) for continuous wavelet transform (cwt) analysis to generate the results in the method paper. However, that library no longer works properly with MATLAB. Hence, the codes in this repository use MATLAB’s native functions for cwt analysis. 
 ## Benchmark_1.m
