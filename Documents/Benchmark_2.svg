@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 936 288" style="enable-background:new 0 0 936 288;" xml:space="preserve">
 <style type="text/css">
-	.st0{clip-path:url(#SVGID_00000181789058841027080680000014049678825190982803_);fill:#FFFFFF;}
+	.st0{clip-path:url(#SVGID_00000126311770839478695140000002597712241666868369_);fill:#FFFFFF;}
 	.st1{fill:#0D1117;}
 	.st2{fill:none;stroke:#FFFFFF;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st3{fill:#0072BD;}
@@ -24,17 +24,16 @@
 			<defs>
 				<rect id="SVGID_1_" width="936" height="288"/>
 			</defs>
-			<clipPath id="SVGID_00000166634469586914732130000010898654201586896000_">
+			<clipPath id="SVGID_00000093135720995253429920000006706937420850167193_">
 				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 			</clipPath>
 			
-				<rect style="clip-path:url(#SVGID_00000166634469586914732130000010898654201586896000_);fill:#FFFFFF;" width="936" height="288"/>
+				<rect style="clip-path:url(#SVGID_00000093135720995253429920000006706937420850167193_);fill:#FFFFFF;" width="936" height="288"/>
 		</g>
 	</g>
 	<g>
 		<g>
 			<rect class="st1" width="936" height="288"/>
-			<path class="st1" d="M122,216h725V81H122V216z"/>
 		</g>
 	</g>
 	<g>
