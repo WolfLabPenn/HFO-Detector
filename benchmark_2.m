@@ -20,7 +20,7 @@ end
 parameters.channels= 1:32; % Channels to loop through
 parameters.fs= fs; % Sampling frequency
 parameters.chunks= 6; % Breaking data into smaller chunks
-parameters.verbose= false; % Display some information
+parameters.verbose= true; % Display some information
 %% Continuous wavelet transform (CWT) parameters
 parameters.wavelet= 'morse'; % Type of wavelet
 parameters.WaveletParameters= [9,120]; % Parameters of wavelet.
@@ -71,7 +71,7 @@ for channel=1:8 % Looping through the channels
         test_HFO=zeros(1,N); 
         n=0;
         for j=1:parameters.chunks
-            temp=[results.channel(selection,j).ripples.center,results.channel(selection,j).fast_ripples.center];% Putting together detected ripples and fast-ripples as HFOs
+            temp=[results.channel(selection,j).ripples.center,results.channel(selection,j).fast_ripples.center]; % Putting together detected ripples and fast-ripples as HFOs
             temp=[temp.time];
             test_HFO(n+1:n+length(temp))=temp;
             n=n+length(temp);

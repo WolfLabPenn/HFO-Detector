@@ -21,8 +21,8 @@ end
 %% General parameters
 parameters.channels= 1:6; % Channels to loop through
 parameters.fs= fs; % Sampling frequency
-parameters.chunks= 2; % Breaking data into smaller chunks
-parameters.verbose= false; % Display some information
+parameters.chunks= 1; % Breaking data into smaller chunks
+parameters.verbose= true; % Display some information
 %% Continuous wavelet transform (CWT) parameters
 parameters.wavelet= 'morse'; % Type of wavelet
 parameters.WaveletParameters= [9,120]; % Parameters of wavelet.
@@ -34,7 +34,7 @@ parameters.compare= 'magnitude'; % Use "amplidute" or "power" for comparison
 parameters.center= 'mean'; % Use "mean" or "max" as the center
 parameters.unimodal= true; % Making sure detected blobs are unimodal
 %% Ripple detection parameters
-parameters.ripple.ecdf= 0.993; % Cutoff threshold
+parameters.ripple.ecdf= 0.994; % Cutoff threshold
 parameters.ripple.range= [80,250]; % Frequency range to detect ripples
 parameters.ripple.n_cyles= 3; % Number of cycles a ripple must have at the "center" frequency
 parameters.ripple.frequency_range_th= 170*98/100; % Allowable difference between lowest and higher frequncy of a blob
