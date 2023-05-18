@@ -21,7 +21,7 @@ end
 %% General parameters
 parameters.channels= 1:6; % Channels to loop through
 parameters.fs= fs; % Sampling frequency
-parameters.chunks= 6; % Breaking data into smaller chunks
+parameters.chunks= 2; % Breaking data into smaller chunks
 parameters.verbose= false; % Display some information
 %% Continuous wavelet transform (CWT) parameters
 parameters.wavelet= 'morse'; % Type of wavelet
