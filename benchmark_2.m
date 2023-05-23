@@ -6,6 +6,7 @@ if ~exist('.\Functions','dir')
 else
     addpath('.\Functions');
 end
+%% The signal for this benchmark is too large to upload on Github. Please download the signal from (https://doi.org/10.6084/m9.figshare.23098526) and put it in the data folder.
 %% You can also find the data and the dector by Roehri et al. here but it requires some processing (rearranging)
 % https://figshare.com/articles/dataset/Simulation_Dataset_of_SEEG_signal_for_HFO_detector_validation/4729645
 if ~exist('.\Data','dir')
