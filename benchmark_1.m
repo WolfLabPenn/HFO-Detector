@@ -1,4 +1,4 @@
-clc;
+% clc;
 clear;
 %%
 if ~exist('.\Functions','dir')
@@ -34,12 +34,13 @@ parameters.compare= 'magnitude'; % Use "amplidute" or "power" for comparison
 parameters.center= 'mean'; % Use "mean" or "max" as the center
 parameters.unimodal= true; % Making sure detected blobs are unimodal
 %% Ripple detection parameters
-parameters.ripple.ecdf= 0.994; % Cutoff threshold
+parameters.ripple.ecdf= 0.993; % Cutoff threshold
 parameters.ripple.range= [80,250]; % Frequency range to detect ripples
 parameters.ripple.n_cyles= 3; % Number of cycles a ripple must have at the "center" frequency
 parameters.ripple.frequency_range_th= 170*98/100; % Allowable difference between lowest and higher frequncy of a blob
 parameters.ripple.mean_th= 3.5; % Threshold that a blob mean/max needs to be compared to all the data at its central frequency
 parameters.ripple.ext= 500; % Upper limit allowed for comparison
+parameters.ripple.save_ecdf= false; % Saving ecdf results is unnecessary and takes large space
 %% Fast-ripple detection parameters
 parameters.fast_ripple= []; % Not interested in detecting fast ripples in this dataset.
 %% Spike detection parameters

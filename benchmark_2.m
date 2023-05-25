@@ -6,7 +6,6 @@ if ~exist('.\Functions','dir')
 else
     addpath('.\Functions');
 end
-%% The signal for this benchmark is too large to upload on Github. Please download the signal from (https://doi.org/10.6084/m9.figshare.23098526) and put it in the data folder.
 %% You can also find the data and the dector by Roehri et al. here but it requires some processing (rearranging)
 % https://figshare.com/articles/dataset/Simulation_Dataset_of_SEEG_signal_for_HFO_detector_validation/4729645
 if ~exist('.\Data','dir')
@@ -27,7 +26,7 @@ parameters.wavelet= 'morse'; % Type of wavelet
 parameters.WaveletParameters= [9,120]; % Parameters of wavelet.
 parameters.VoicesPerOctave= 16; % Voices per octave
 parameters.FrequencyLimits= [15,1000]; % Frequncy range for CWT analysis
-parameters.gpu= true; % Using gpu for CWT
+parameters.gpu= false; % Using gpu for CWT
 %% Parameters for detecting and characterizing blobs
 parameters.compare= 'magnitude'; % Use "amplidute" or "power" for comparison
 parameters.center= 'mean'; % Use "mean" or "max" as the center
@@ -39,6 +38,7 @@ parameters.ripple.n_cyles= 3; % Number of cycles a ripple must have at the "cent
 parameters.ripple.frequency_range_th= 170*98/100; % Allowable difference between lowest and higher frequncy of a blob
 parameters.ripple.mean_th= 3.5; % Threshold that a blob mean/max needs to be compared to all the data at its central frequency
 parameters.ripple.ext= 500; % Upper limit allowed for comparison
+parameters.ripple.save_ecdf= false;% Saving ecdf results is unnecessary and takes large space
 %% Fast-ripple detection parameters
 parameters.fast_ripple.ecdf=0.998; % Cutoff threshold
 parameters.fast_ripple.range=[250,500]; % Frequency range to detect fast-ripples
@@ -46,6 +46,7 @@ parameters.fast_ripple.n_cyles=3; % Number of cycles a ripple must have at the "
 parameters.fast_ripple.frequency_range_th=250*98/100; % Allowable difference between lowest and higher frequncy of a blob
 parameters.fast_ripple.mean_th=3.5; % Threshold that a blob mean/max needs to be compared to all the data at its central frequency
 parameters.fast_ripple.ext=500; % Upper limit allowed for comparison
+parameters.fast_ripple.save_ecdf= false; % Saving ecdf results is unnecessary and takes large space
 %% Spike detection parameters
 parameters.spike.prom=1.5; % minimum dominance of peaks
 parameters.spike.range=[15,45]; % Frequency range to detect fast-ripples
