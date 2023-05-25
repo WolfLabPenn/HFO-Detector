@@ -70,8 +70,10 @@ for channel=parameters.channels % looping through the channels
             [~,im]=min(abs(yy-parameters.ripple.ecdf)); % find where we are crossing threshold
             th=xx(im); % picking up threshold
             results.channel(channel,chunk).Prob.ripple.th=th; % saving the threshold value
-            results.channel(channel,chunk).Prob.ripple.ecdf_x=xx; % saving ecdf results
-            results.channel(channel,chunk).Prob.ripple.ecdf_y=yy; % saving ecdf results
+            if parameters.ripple.save_ecdf==true
+                results.channel(channel,chunk).Prob.ripple.ecdf_x=single(xx); % saving ecdf results
+                results.channel(channel,chunk).Prob.ripple.ecdf_y=single(yy); % saving ecdf results
+            end
             z_th(z_th<th)=0; % setting z (magnitude or power based on the user's choice) 0 for values leff than threshold
             f_cut=f(cutoff); % frequency range for the cutoff
             CC = bwconncomp(z_th,4); % finding connected blobs.
@@ -93,8 +95,10 @@ for channel=parameters.channels % looping through the channels
             [~,im]=min(abs(yy-parameters.fast_ripple.ecdf));
             th=xx(im);
             results.channel(channel,chunk).Prob.fast_ripple.th=th;
-            results.channel(channel,chunk).Prob.fast_ripple.ecdf_x=xx;
-            results.channel(channel,chunk).Prob.fast_ripple.ecdf_y=yy;
+            if parameters.fast_ripple.save_ecdf==true
+                results.channel(channel,chunk).Prob.fast_ripple.ecdf_x=single(xx);
+                results.channel(channel,chunk).Prob.fast_ripple.ecdf_y=single(yy);
+            end
             z_th=z(cutoff,:);
             z_th(z_th<th)=0;
             f_cut=f(cutoff);
