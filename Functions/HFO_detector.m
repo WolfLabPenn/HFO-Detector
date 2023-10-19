@@ -63,7 +63,7 @@ for channel=parameters.channels % looping through the channels
         %
         if ~isempty(parameters.ripple) % did the user ask to find ripples?
             rng(1); % setting rng for reproducibility
-            cutoff=(f>parameters.ripple.range(1)).*(f<=parameters.ripple.range(2));cutoff=logical(cutoff); % finding the cut off frequency
+            cutoff=(f>=parameters.ripple.range(1)).*(f<=parameters.ripple.range(2));cutoff=logical(cutoff); % finding the cut off frequency
             z_th=z(cutoff,:); % cutting off data
             r=randi(size(z_th,1)*size(z_th,2),floor(size(z,2)/5),1);% picking up 5% of the data for ecdf creation.
             [yy,xx]=ecdf(double(z_th(r))); % constructing ecdf. I convert the data back to double here because I have seen issues if I use signle here.
@@ -87,7 +87,7 @@ for channel=parameters.channels % looping through the channels
             % comments are all the same as ripples. The parameters are the
             % only things that are channging to find fast-ripples.
             rng(1);
-            cutoff=(f>parameters.fast_ripple.range(1)).*(f<=parameters.fast_ripple.range(2));
+            cutoff=(f>=parameters.fast_ripple.range(1)).*(f<=parameters.fast_ripple.range(2));
             cutoff=logical(cutoff);
             z_th=z(cutoff,:);
             r=randi(size(z_th,1)*size(z_th,2),floor(size(z,2)/5),1);
