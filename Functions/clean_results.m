@@ -9,6 +9,7 @@ J=0;
 artifacts_frequency_range=zeros(1e6,1);
 K=0;
 artifacts_amplitude=zeros(1e6,1);
+frequency_range_th=parameters.frequency_range_th*(max(freqs)-min(freqs));
 cut_CC=cut_results(CC,freqs,z,time,unimodal);
 for i=1:length(cut_CC)
     temp_x=cut_CC(i).x;
@@ -31,7 +32,7 @@ for i=1:length(cut_CC)
     temp_range=temp_x(all_inds);
     dT=max(temp_range)-min(temp_range);
     if max(temp_z)<parameters.ext
-        if range(temp_y)<parameters.frequency_range_th
+        if range(temp_y)<frequency_range_th
             if dT>parameters.n_cyles/center_f
                 test=mean_amplitude(temp_x,temp_y,temp_z);
                 if test/Mu(ind_F_real)>parameters.mean_th
